@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EE8DE5C61D62765300C57CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5C51D62765300C57CB3 /* main.m */; };
-		EE8DE5C91D62765300C57CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5C81D62765300C57CB3 /* AppDelegate.m */; };
-		EE8DE5CC1D62765300C57CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5CB1D62765300C57CB3 /* ViewController.m */; };
+		EE8DE5C91D62765300C57CB3 /* LEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5C81D62765300C57CB3 /* LEAppDelegate.m */; };
+		EE8DE5CC1D62765300C57CB3 /* LEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5CB1D62765300C57CB3 /* LEViewController.m */; };
 		EE8DE5CF1D62765300C57CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8DE5CD1D62765300C57CB3 /* Main.storyboard */; };
 		EE8DE5D21D62765300C57CB3 /* LEApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5D01D62765300C57CB3 /* LEApp.xcdatamodeld */; };
 		EE8DE5D41D62765300C57CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8DE5D31D62765300C57CB3 /* Assets.xcassets */; };
@@ -39,10 +39,10 @@
 /* Begin PBXFileReference section */
 		EE8DE5C11D62765300C57CB3 /* LEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8DE5C51D62765300C57CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE8DE5C71D62765300C57CB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE8DE5C81D62765300C57CB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE8DE5CA1D62765300C57CB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE8DE5CB1D62765300C57CB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE8DE5C71D62765300C57CB3 /* LEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEAppDelegate.h; sourceTree = "<group>"; };
+		EE8DE5C81D62765300C57CB3 /* LEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEAppDelegate.m; sourceTree = "<group>"; };
+		EE8DE5CA1D62765300C57CB3 /* LEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEViewController.h; sourceTree = "<group>"; };
+		EE8DE5CB1D62765300C57CB3 /* LEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEViewController.m; sourceTree = "<group>"; };
 		EE8DE5CE1D62765300C57CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE8DE5D11D62765300C57CB3 /* LEApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LEApp.xcdatamodel; sourceTree = "<group>"; };
 		EE8DE5D31D62765300C57CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		EE8DE5E81D62765400C57CB3 /* LEAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8DE5EC1D62765400C57CB3 /* LEAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEAppUITests.m; sourceTree = "<group>"; };
 		EE8DE5EE1D62765400C57CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE8DE5FA1D6277A400C57CB3 /* LEFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LEFramework.framework; path = "../LEFramework/build/Debug-iphoneos/LEFramework.framework"; sourceTree = "<group>"; };
+		EE8DE5FA1D6277A400C57CB3 /* LEFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LEFramework.framework; path = "../../LEFramework/build/Debug-iphoneos/LEFramework.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 		EE8DE5B81D62765300C57CB3 = {
 			isa = PBXGroup;
 			children = (
-				EE8DE5FA1D6277A400C57CB3 /* LEFramework.framework */,
 				EE8DE5C31D62765300C57CB3 /* LEApp */,
 				EE8DE5E01D62765400C57CB3 /* LEAppTests */,
 				EE8DE5EB1D62765400C57CB3 /* LEAppUITests */,
@@ -107,10 +106,11 @@
 		EE8DE5C31D62765300C57CB3 /* LEApp */ = {
 			isa = PBXGroup;
 			children = (
-				EE8DE5C71D62765300C57CB3 /* AppDelegate.h */,
-				EE8DE5C81D62765300C57CB3 /* AppDelegate.m */,
-				EE8DE5CA1D62765300C57CB3 /* ViewController.h */,
-				EE8DE5CB1D62765300C57CB3 /* ViewController.m */,
+				EE8DE5C51D62765300C57CB3 /* main.m */,
+				EE8DE5C71D62765300C57CB3 /* LEAppDelegate.h */,
+				EE8DE5C81D62765300C57CB3 /* LEAppDelegate.m */,
+				EE8DE5CA1D62765300C57CB3 /* LEViewController.h */,
+				EE8DE5CB1D62765300C57CB3 /* LEViewController.m */,
 				EE8DE5CD1D62765300C57CB3 /* Main.storyboard */,
 				EE8DE5D31D62765300C57CB3 /* Assets.xcassets */,
 				EE8DE5D51D62765300C57CB3 /* LaunchScreen.storyboard */,
@@ -124,7 +124,7 @@
 		EE8DE5C41D62765300C57CB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE8DE5C51D62765300C57CB3 /* main.m */,
+				EE8DE5FA1D6277A400C57CB3 /* LEFramework.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,6 +209,7 @@
 		EE8DE5B91D62765300C57CB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LE;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Zunware;
 				TargetAttributes = {
@@ -278,8 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8DE5D21D62765300C57CB3 /* LEApp.xcdatamodeld in Sources */,
-				EE8DE5CC1D62765300C57CB3 /* ViewController.m in Sources */,
-				EE8DE5C91D62765300C57CB3 /* AppDelegate.m in Sources */,
+				EE8DE5CC1D62765300C57CB3 /* LEViewController.m in Sources */,
+				EE8DE5C91D62765300C57CB3 /* LEAppDelegate.m in Sources */,
 				EE8DE5C61D62765300C57CB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,12 @@
 		EE8DE5AE1D6275FF00C57CB3 /* LEFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5AD1D6275FF00C57CB3 /* LEFrameworkTests.m */; };
 		EE8DE5FE1D6277ED00C57CB3 /* LEManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE5FC1D6277ED00C57CB3 /* LEManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE8DE5FF1D6277ED00C57CB3 /* LEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5FD1D6277ED00C57CB3 /* LEManager.m */; };
+		EE8DE60B1D62805500C57CB3 /* LEDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE6091D62805500C57CB3 /* LEDataSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8DE60C1D62805500C57CB3 /* LEDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE60A1D62805500C57CB3 /* LEDataSync.m */; };
+		EE8DE60F1D6280FF00C57CB3 /* LEAppUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE60D1D6280FF00C57CB3 /* LEAppUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8DE6101D6280FF00C57CB3 /* LEAppUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE60E1D6280FF00C57CB3 /* LEAppUpdater.m */; };
+		EE8DE6131D62816000C57CB3 /* LEContactsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE6111D62816000C57CB3 /* LEContactsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8DE6141D62816000C57CB3 /* LEContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE6121D62816000C57CB3 /* LEContactsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,12 @@
 		EE8DE5AF1D6275FF00C57CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8DE5FC1D6277ED00C57CB3 /* LEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEManager.h; sourceTree = "<group>"; };
 		EE8DE5FD1D6277ED00C57CB3 /* LEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEManager.m; sourceTree = "<group>"; };
+		EE8DE6091D62805500C57CB3 /* LEDataSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDataSync.h; sourceTree = "<group>"; };
+		EE8DE60A1D62805500C57CB3 /* LEDataSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDataSync.m; sourceTree = "<group>"; };
+		EE8DE60D1D6280FF00C57CB3 /* LEAppUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAppUpdater.h; sourceTree = "<group>"; };
+		EE8DE60E1D6280FF00C57CB3 /* LEAppUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAppUpdater.m; sourceTree = "<group>"; };
+		EE8DE6111D62816000C57CB3 /* LEContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEContactsManager.h; sourceTree = "<group>"; };
+		EE8DE6121D62816000C57CB3 /* LEContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEContactsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +87,16 @@
 		EE8DE5A01D6275FF00C57CB3 /* LEFramework */ = {
 			isa = PBXGroup;
 			children = (
-				EE8DE5A11D6275FF00C57CB3 /* LEFramework.h */,
 				EE8DE5A31D6275FF00C57CB3 /* Info.plist */,
+				EE8DE5A11D6275FF00C57CB3 /* LEFramework.h */,
 				EE8DE5FC1D6277ED00C57CB3 /* LEManager.h */,
 				EE8DE5FD1D6277ED00C57CB3 /* LEManager.m */,
+				EE8DE6091D62805500C57CB3 /* LEDataSync.h */,
+				EE8DE60A1D62805500C57CB3 /* LEDataSync.m */,
+				EE8DE60D1D6280FF00C57CB3 /* LEAppUpdater.h */,
+				EE8DE60E1D6280FF00C57CB3 /* LEAppUpdater.m */,
+				EE8DE6111D62816000C57CB3 /* LEContactsManager.h */,
+				EE8DE6121D62816000C57CB3 /* LEContactsManager.m */,
 			);
 			path = LEFramework;
 			sourceTree = "<group>";
@@ -101,6 +119,9 @@
 			files = (
 				EE8DE5FE1D6277ED00C57CB3 /* LEManager.h in Headers */,
 				EE8DE5A21D6275FF00C57CB3 /* LEFramework.h in Headers */,
+				EE8DE60B1D62805500C57CB3 /* LEDataSync.h in Headers */,
+				EE8DE60F1D6280FF00C57CB3 /* LEAppUpdater.h in Headers */,
+				EE8DE6131D62816000C57CB3 /* LEContactsManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +170,7 @@
 		EE8DE5951D6275FF00C57CB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LE;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Zunware;
 				TargetAttributes = {
@@ -201,6 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8DE5FF1D6277ED00C57CB3 /* LEManager.m in Sources */,
+				EE8DE6141D62816000C57CB3 /* LEContactsManager.m in Sources */,
+				EE8DE6101D6280FF00C57CB3 /* LEAppUpdater.m in Sources */,
+				EE8DE60C1D62805500C57CB3 /* LEDataSync.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

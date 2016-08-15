@@ -6,13 +6,13 @@
 //  Copyright © 2016 Zunware. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "LEAppDelegate.h"
 
-@interface AppDelegate ()
+@interface LEAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation LEAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

@@ -6,13 +6,13 @@
 //  Copyright © 2016 Zunware. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LEViewController.h"
 
-@interface ViewController ()
+@interface LEViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LEViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

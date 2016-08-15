@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LEDataSync.h"
+#import "LEAppUpdater.h"
+#import "LEContactsManager.h"
+
 
 /**
  *  About
@@ -24,6 +28,8 @@
  *  `[LEManager getInstance]`. This ensures we only have one.
  */
 @interface LEManager : NSObject
+
+@property LEDataSync* dataSyncer;
 
 /**
  *  Singleton access

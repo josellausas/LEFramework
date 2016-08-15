@@ -5,7 +5,11 @@
 //  Created by PP on 8/15/16.
 //  Copyright © 2016 Zunware. All rights reserved.
 //
-
+/**
+ *  LEFramework was created by:
+ *  - SuEric
+ *  - Jose Llausas
+ */
 #import <UIKit/UIKit.h>
 
 //! Project version number for LEFramework.

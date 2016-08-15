@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <LEFramework/LEFramework.h>
 
-@interface ViewController : UIViewController
+/**
+ *  Initial view controller for Sample LEFrameworks app
+ */
+@interface LEViewController : UIViewController
 
 
 @end
