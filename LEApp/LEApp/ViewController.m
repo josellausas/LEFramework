@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    LEFrameworkManager* f = [[LEFrameworkManager alloc] init];
+    LEManager* f = [[LEManager alloc] init];
     [f helloWorld];
     
 }

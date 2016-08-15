@@ -14,7 +14,10 @@ FOUNDATION_EXPORT double LEFrameworkVersionNumber;
 //! Project version string for LEFramework.
 FOUNDATION_EXPORT const unsigned char LEFrameworkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <LEFramework/PublicHeader.h>
+// Declare public headers here.
 
-#import "LEFrameworkManager.h"
+/*-----------------------------------0001
+NOTE!!!! DO NOT FORGET TO SET THEM PUBLIC IN THE FRAMEWORK PROJECT PROPERTIES inside `Build Phases`
+---------------------------------------*/
+#import "LEManager.h"
 

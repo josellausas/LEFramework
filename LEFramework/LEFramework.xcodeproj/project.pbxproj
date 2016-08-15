@@ -10,8 +10,8 @@
 		EE8DE5A21D6275FF00C57CB3 /* LEFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE5A11D6275FF00C57CB3 /* LEFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE8DE5A91D6275FF00C57CB3 /* LEFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8DE59E1D6275FF00C57CB3 /* LEFramework.framework */; };
 		EE8DE5AE1D6275FF00C57CB3 /* LEFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5AD1D6275FF00C57CB3 /* LEFrameworkTests.m */; };
-		EE8DE5FE1D6277ED00C57CB3 /* LEFrameworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE5FC1D6277ED00C57CB3 /* LEFrameworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8DE5FF1D6277ED00C57CB3 /* LEFrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5FD1D6277ED00C57CB3 /* LEFrameworkManager.m */; };
+		EE8DE5FE1D6277ED00C57CB3 /* LEManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DE5FC1D6277ED00C57CB3 /* LEManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8DE5FF1D6277ED00C57CB3 /* LEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5FD1D6277ED00C57CB3 /* LEManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,8 @@
 		EE8DE5A81D6275FF00C57CB3 /* LEFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8DE5AD1D6275FF00C57CB3 /* LEFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEFrameworkTests.m; sourceTree = "<group>"; };
 		EE8DE5AF1D6275FF00C57CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE8DE5FC1D6277ED00C57CB3 /* LEFrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEFrameworkManager.h; sourceTree = "<group>"; };
-		EE8DE5FD1D6277ED00C57CB3 /* LEFrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEFrameworkManager.m; sourceTree = "<group>"; };
+		EE8DE5FC1D6277ED00C57CB3 /* LEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEManager.h; sourceTree = "<group>"; };
+		EE8DE5FD1D6277ED00C57CB3 /* LEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 			children = (
 				EE8DE5A11D6275FF00C57CB3 /* LEFramework.h */,
 				EE8DE5A31D6275FF00C57CB3 /* Info.plist */,
-				EE8DE5FC1D6277ED00C57CB3 /* LEFrameworkManager.h */,
-				EE8DE5FD1D6277ED00C57CB3 /* LEFrameworkManager.m */,
+				EE8DE5FC1D6277ED00C57CB3 /* LEManager.h */,
+				EE8DE5FD1D6277ED00C57CB3 /* LEManager.m */,
 			);
 			path = LEFramework;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8DE5FE1D6277ED00C57CB3 /* LEFrameworkManager.h in Headers */,
+				EE8DE5FE1D6277ED00C57CB3 /* LEManager.h in Headers */,
 				EE8DE5A21D6275FF00C57CB3 /* LEFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8DE5FF1D6277ED00C57CB3 /* LEFrameworkManager.m in Sources */,
+				EE8DE5FF1D6277ED00C57CB3 /* LEManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +316,7 @@
 		EE8DE5B31D6275FF00C57CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,6 +333,7 @@
 		EE8DE5B41D6275FF00C57CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

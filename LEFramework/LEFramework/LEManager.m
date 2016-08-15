@@ -6,9 +6,9 @@
 //  Copyright © 2016 Zunware. All rights reserved.
 //
 
-#import "LEFrameworkManager.h"
+#import "LEManager.h"
 
-@implementation LEFrameworkManager
+@implementation LEManager
 
 -(void)helloWorld
 {
