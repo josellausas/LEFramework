@@ -21,6 +21,8 @@
     LEManager* f = [[LEManager alloc] init];
     [f helloWorld];
     
+    [self setTitle:@"LEFrameworks Demo"];
+    
 }
 
 - (void)didReceiveMemoryWarning {

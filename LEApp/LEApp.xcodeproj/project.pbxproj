@@ -17,6 +17,9 @@
 		EE8DE5E21D62765400C57CB3 /* LEAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5E11D62765400C57CB3 /* LEAppTests.m */; };
 		EE8DE5ED1D62765400C57CB3 /* LEAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE5EC1D62765400C57CB3 /* LEAppUITests.m */; };
 		EE8DE5FB1D6277A400C57CB3 /* LEFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8DE5FA1D6277A400C57CB3 /* LEFramework.framework */; };
+		EE8DE6171D62890500C57CB3 /* LEAppUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE6161D62890500C57CB3 /* LEAppUpdateViewController.m */; };
+		EE8DE61A1D62891800C57CB3 /* LEDataSyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE6191D62891800C57CB3 /* LEDataSyncViewController.m */; };
+		EE8DE61D1D62893800C57CB3 /* LEContactsManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8DE61C1D62893800C57CB3 /* LEContactsManagerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		EE8DE5EC1D62765400C57CB3 /* LEAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEAppUITests.m; sourceTree = "<group>"; };
 		EE8DE5EE1D62765400C57CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8DE5FA1D6277A400C57CB3 /* LEFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LEFramework.framework; path = "../../LEFramework/build/Debug-iphoneos/LEFramework.framework"; sourceTree = "<group>"; };
+		EE8DE6151D62890500C57CB3 /* LEAppUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAppUpdateViewController.h; sourceTree = "<group>"; };
+		EE8DE6161D62890500C57CB3 /* LEAppUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAppUpdateViewController.m; sourceTree = "<group>"; };
+		EE8DE6181D62891800C57CB3 /* LEDataSyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDataSyncViewController.h; sourceTree = "<group>"; };
+		EE8DE6191D62891800C57CB3 /* LEDataSyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDataSyncViewController.m; sourceTree = "<group>"; };
+		EE8DE61B1D62893800C57CB3 /* LEContactsManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEContactsManagerViewController.h; sourceTree = "<group>"; };
+		EE8DE61C1D62893800C57CB3 /* LEContactsManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEContactsManagerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				EE8DE5D81D62765300C57CB3 /* Info.plist */,
 				EE8DE5D01D62765300C57CB3 /* LEApp.xcdatamodeld */,
 				EE8DE5C41D62765300C57CB3 /* Supporting Files */,
+				EE8DE6151D62890500C57CB3 /* LEAppUpdateViewController.h */,
+				EE8DE6161D62890500C57CB3 /* LEAppUpdateViewController.m */,
+				EE8DE6181D62891800C57CB3 /* LEDataSyncViewController.h */,
+				EE8DE6191D62891800C57CB3 /* LEDataSyncViewController.m */,
+				EE8DE61B1D62893800C57CB3 /* LEContactsManagerViewController.h */,
+				EE8DE61C1D62893800C57CB3 /* LEContactsManagerViewController.m */,
 			);
 			path = LEApp;
 			sourceTree = "<group>";
@@ -280,6 +295,9 @@
 			files = (
 				EE8DE5D21D62765300C57CB3 /* LEApp.xcdatamodeld in Sources */,
 				EE8DE5CC1D62765300C57CB3 /* LEViewController.m in Sources */,
+				EE8DE61A1D62891800C57CB3 /* LEDataSyncViewController.m in Sources */,
+				EE8DE6171D62890500C57CB3 /* LEAppUpdateViewController.m in Sources */,
+				EE8DE61D1D62893800C57CB3 /* LEContactsManagerViewController.m in Sources */,
 				EE8DE5C91D62765300C57CB3 /* LEAppDelegate.m in Sources */,
 				EE8DE5C61D62765300C57CB3 /* main.m in Sources */,
 			);

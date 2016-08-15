@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LEFrameworks Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egQ-PL-hTD">
-                                <rect key="frame" x="219" y="28" width="163" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEFrameworks Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egQ-PL-hTD">
+                                <rect key="frame" x="219" y="72" width="163" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -61,12 +61,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="283" y="648"/>
+            <point key="canvasLocation" x="283" y="616"/>
         </scene>
-        <!--View Controller-->
+        <!--App Update View Controller-->
         <scene sceneID="FAj-bJ-Phe">
             <objects>
-                <viewController id="Tqy-wH-8AU" sceneMemberID="viewController">
+                <viewController id="Tqy-wH-8AU" customClass="LEAppUpdateViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W82-CE-Wbd"/>
                         <viewControllerLayoutGuide type="bottom" id="YTk-Pl-gHs"/>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="1891" y="-149"/>
         </scene>
-        <!--View Controller-->
+        <!--Data Sync View Controller-->
         <scene sceneID="dzS-Ha-Xcb">
             <objects>
-                <viewController id="Dal-ng-sht" sceneMemberID="viewController">
+                <viewController id="Dal-ng-sht" customClass="LEDataSyncViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Na4-py-cbf"/>
                         <viewControllerLayoutGuide type="bottom" id="7nl-g7-zIt"/>
@@ -97,12 +97,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="red-yV-AQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1891" y="516"/>
+            <point key="canvasLocation" x="1891" y="528"/>
         </scene>
-        <!--View Controller-->
+        <!--Contacts Manager View Controller-->
         <scene sceneID="dDQ-7X-JBE">
             <objects>
-                <viewController id="7FZ-b3-uWQ" sceneMemberID="viewController">
+                <viewController id="7FZ-b3-uWQ" customClass="LEContactsManagerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rfl-Jw-e8r"/>
                         <viewControllerLayoutGuide type="bottom" id="vo6-Vw-VAo"/>
@@ -133,7 +133,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQJ-oD-Fcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="283" y="-184"/>
+            <point key="canvasLocation" x="283" y="-104"/>
         </scene>
     </scenes>
 </document>
